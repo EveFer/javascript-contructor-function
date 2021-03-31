@@ -4,6 +4,9 @@ Agregando además las siguientes funciones:
 - Obtener la edad a partir de la fecha de nacimiento
 - Obtener promedio de sus scores
 
+- Colección de Koder que pertenezcan a JavaScript
+- Colección de Koder que pertenezcan a Python
+
 ```js
 
 const kodersCollection = [
@@ -28,7 +31,7 @@ const kodersCollection = [
             },
         ]
     },
-    name: 'Ale', 
+        name: 'Ale', 
         lastName: 'Paez',
         birthday: '1998/05/12',
         generation: 1,
@@ -68,7 +71,7 @@ const kodersCollection = [
             },
         ]
     },
-    name: 'Oscar', 
+        name: 'Oscar', 
         lastName: 'Ruiz',
         birthday: '1996/06/24',
         generation: 1,
@@ -88,7 +91,7 @@ const kodersCollection = [
             },
         ]
     },
-    name: 'Javier', 
+        name: 'Javier', 
         lastName: 'López',
         birthday: '1996/06/24',
         generation: 9,
