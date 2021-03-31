@@ -31,6 +31,7 @@ const kodersCollection = [
             },
         ]
     },
+    {
         name: 'Ale', 
         lastName: 'Paez',
         birthday: '1998/05/12',
@@ -51,12 +52,13 @@ const kodersCollection = [
             },
         ]
     },
+    {
         name: 'Juan Pablo', 
         lastName: 'Sánchez',
         birthday: '1994/10/26',
         generation: 10,
         bootcamp: 'JavaScript',
-        scores: scores: [
+        scores: [
             {
                 module: 'Frontend',
                 score: 100
@@ -71,12 +73,13 @@ const kodersCollection = [
             },
         ]
     },
+    {
         name: 'Oscar', 
         lastName: 'Ruiz',
         birthday: '1996/06/24',
         generation: 1,
         bootcamp: 'Python',
-        scores: scores: [
+        scores: [
             {
                 module: 'Frontend',
                 score: 98
@@ -91,12 +94,13 @@ const kodersCollection = [
             },
         ]
     },
+    {
         name: 'Javier', 
         lastName: 'López',
         birthday: '1996/06/24',
         generation: 9,
         bootcamp: 'JavaScript',
-        scores: scores: [
+        scores: [
             {
                 module: 'Frontend',
                 score: 80

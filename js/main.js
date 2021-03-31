@@ -22,11 +22,17 @@ function Koder(name, lastName, generation, birthDate, country, bootcamp, school=
     this.asking = function(question, mentor) {
         console.log(`${mentor} tengo duda sobre: ${question}`)
     }
+    this.getAge = function() {
+        let today = new Date();
+        let birthDate = new Date(this.birthDate);
+        let age = today.getFullYear() - birthDate.getFullYear();
+        return age
+    }
 }
 
 // instanciar
 
-const koderDiana = new Koder('Diana', 'Ibañez', 11, '1992/06/03', 'Peru', 'JavaScript', 'KoderHause')
+const koderDiana = new Koder('Diana', 'Ibañez', 11, '1996/06/24', 'Peru', 'JavaScript', 'KoderHause')
 const koderTaquito = new Koder('Vero', 'Paredes', 11, '1992/06/03', 'Mexico', 'JavaScript')
 
 console.log(koderDiana)
